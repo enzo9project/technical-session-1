@@ -85,15 +85,14 @@ public class StepDefinition {
             dc.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
             dc.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
             dc.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-
+            
 //            System.setProperty("webdriver.chrome.driver",
-//                    System.getProperty("user.dir") + "/src/test/resources/BrowserDrivers/chromedriver.exe");
+//                    System.getProperty("user.dir") + "/src/test/resources/BrowserDrivers/chromedriver_win32_2.39.exe");
             System.setProperty("webdriver.chrome.driver",
-                    System.getProperty("user.dir") + "/src/test/resources/BrowserDrivers/chromedriver_win32_2.39.exe");
+                    System.getProperty("user.dir") + "/src/test/resources/BrowserDrivers/chromedriver_mac64_2_39");
             driver = new ChromeDriver(dc);
             driver.manage().window().maximize();
         }
-
         return driver;
     }
 }

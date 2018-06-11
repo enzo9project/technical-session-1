@@ -20,7 +20,7 @@
         <maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
 
         <maven-cucumber-reporting.version>3.8.0</maven-cucumber-reporting.version>
-        <maven-cucumber-reporting.projectName>cvRobot.dev.cucumber-testng</maven-cucumber-reporting.projectName>
+        <maven-cucumber-reporting.projectName>technical session 1</maven-cucumber-reporting.projectName>
         <maven-cucumber-reporting.buildNumber>-1</maven-cucumber-reporting.buildNumber>
         <maven-cucumber-reporting.cucumberOutput>${project.build.directory}//RawJsonResult/</maven-cucumber-reporting.cucumberOutput>
         <maven-cucumber-reporting.outputDirectory>${project.build.directory}/Maven Pretty Local Report</maven-cucumber-reporting.outputDirectory>
